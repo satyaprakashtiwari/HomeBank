@@ -1,0 +1,8 @@
+14-01-2020 01:07:25 [ INFO  ] HomeBank: (TC_LoginDDT_002.java:62)- number of rows are: 3
+14-01-2020 01:07:25 [ INFO  ] HomeBank: (TC_LoginDDT_002.java:65)- number of columns are: 2
+14-01-2020 01:07:26 [ INFO  ] HomeBank: (TC_AddCustomerTest_003.java:17)- entered username
+14-01-2020 01:07:26 [ INFO  ] HomeBank: (TC_LoginTest_001.java:17)- entered username
+14-01-2020 01:07:26 [ INFO  ] HomeBank: (TC_LoginDDT_002.java:20)- entered username
+14-01-2020 01:07:26 [ INFO  ] HomeBank: (TC_AddCustomerTest_003.java:19)- entered password
+14-01-2020 01:07:26 [ INFO  ] HomeBank: (TC_LoginTest_001.java:19)- entered password
+14-01-2020 01:07:27 [ INFO  ] HomeBank: (TC_AddCustomerTest_003.java:21)- clicked Login button

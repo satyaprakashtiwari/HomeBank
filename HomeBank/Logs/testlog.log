@@ -1,0 +1,8 @@
+2020-01-14 01:07:25,550 [TestNG-test=Test-3] INFO HomeBank - number of rows are: 3
+2020-01-14 01:07:25,610 [TestNG-test=Test-3] INFO HomeBank - number of columns are: 2
+2020-01-14 01:07:26,144 [TestNG-test=Test-1] INFO HomeBank - entered username
+2020-01-14 01:07:26,341 [TestNG-test=Test-2] INFO HomeBank - entered username
+2020-01-14 01:07:26,729 [TestNG-test=Test-3] INFO HomeBank - entered username
+2020-01-14 01:07:26,844 [TestNG-test=Test-1] INFO HomeBank - entered password
+2020-01-14 01:07:26,913 [TestNG-test=Test-2] INFO HomeBank - entered password
+2020-01-14 01:07:27,551 [TestNG-test=Test-1] INFO HomeBank - clicked Login button

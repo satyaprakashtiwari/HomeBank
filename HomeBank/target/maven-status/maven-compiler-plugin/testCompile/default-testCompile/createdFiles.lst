@@ -1,0 +1,10 @@
+com\homebank\testCases\TC_AddCustomerTest_003.class
+com\homebank\utilities\XLUtils.class
+com\homebank\testCases\TC_LoginTest_001.class
+com\homebank\testCases\TC_LoginDDT_002.class
+com\homebank\utilities\Reporting.class
+com\homebank\utilities\ReadConfig.class
+com\homebank\pages\LoginPage.class
+com\homebank\pages\AddCustomerPage.class
+com\homebank\testCases\BaseClass.class
+com\homebank\testCases\TC_LoginTest_002.class
