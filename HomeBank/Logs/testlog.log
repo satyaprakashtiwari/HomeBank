@@ -1,16 +1,3 @@
-2020-01-15 00:50:01,480 [main] INFO HomeBank - entered username
-2020-01-15 00:50:01,999 [main] INFO HomeBank - entered password
-2020-01-15 00:50:03,958 [main] INFO HomeBank - clicked Login button
-2020-01-15 00:50:05,642 [main] INFO HomeBank - going to add new customer
-2020-01-15 00:50:05,643 [main] INFO HomeBank - going to add customer name
-2020-01-15 00:50:05,894 [main] INFO HomeBank - going to select male as gender
-2020-01-15 00:50:05,895 [main] INFO HomeBank - going to add DOB as 13/01/2020
-2020-01-15 00:50:06,214 [main] INFO HomeBank - going to add address Kormangla
-2020-01-15 00:50:06,563 [main] INFO HomeBank - going to add city Bangalore
-2020-01-15 00:50:06,852 [main] INFO HomeBank - going to add state Karnataka
-2020-01-15 00:50:07,682 [main] INFO HomeBank - going to add pin 560096
-2020-01-15 00:50:08,016 [main] INFO HomeBank - going to add mobile 1234567890
-2020-01-15 00:50:08,227 [main] INFO HomeBank - going to add email Y02J3UVg@gmail.com
-2020-01-15 00:50:08,710 [main] INFO HomeBank - going to add password ranbir123
-2020-01-15 00:50:08,880 [main] INFO HomeBank - going to click submit
-2020-01-15 00:50:22,687 [main] INFO HomeBank - going to validate the customer created
+2020-01-15 17:16:34,756 [main] INFO HomeBank - entered username
+2020-01-15 17:16:35,020 [main] INFO HomeBank - entered password
+2020-01-15 17:16:36,746 [main] INFO HomeBank - clicked Login button

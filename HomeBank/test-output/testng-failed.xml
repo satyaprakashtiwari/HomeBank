@@ -1,30 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
-  <listeners>
-    <listener class-name="com.homebank.utilities.Reporting"/>
-  </listeners>
-  <test thread-count="5" name="Test(failed)" parallel="classes">
-    <parameter name="browser" value="chrome"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.homebank.testCases.TC_LoginDDT_002">
-        <methods>
-          <include name="endReport"/>
-          <include name="testdown"/>
-          <include name="setExtent"/>
-          <include name="setup"/>
-          <include name="loginDDT" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- com.homebank.testCases.TC_LoginDDT_002 -->
-      <class name="com.homebank.testCases.TC_AddCustomerTest_003">
-        <methods>
-          <include name="endReport"/>
-          <include name="testdown"/>
-          <include name="setExtent"/>
-          <include name="setup"/>
-          <include name="addNewCustomer"/>
-        </methods>
-      </class> <!-- com.homebank.testCases.TC_AddCustomerTest_003 -->
       <class name="com.homebank.testCases.TC_LoginTest_001">
         <methods>
           <include name="endReport"/>
@@ -35,5 +13,5 @@
         </methods>
       </class> <!-- com.homebank.testCases.TC_LoginTest_001 -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

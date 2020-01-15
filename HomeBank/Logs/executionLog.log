@@ -1,16 +1,3 @@
-15-01-2020 00:50:01 [ INFO  ] HomeBank: (TC_AddCustomerTest_003.java:17)- entered username
-15-01-2020 00:50:01 [ INFO  ] HomeBank: (TC_AddCustomerTest_003.java:19)- entered password
-15-01-2020 00:50:03 [ INFO  ] HomeBank: (TC_AddCustomerTest_003.java:21)- clicked Login button
-15-01-2020 00:50:05 [ INFO  ] HomeBank: (TC_AddCustomerTest_003.java:26)- going to add new customer
-15-01-2020 00:50:05 [ INFO  ] HomeBank: (TC_AddCustomerTest_003.java:29)- going to add customer name
-15-01-2020 00:50:05 [ INFO  ] HomeBank: (TC_AddCustomerTest_003.java:32)- going to select male as gender
-15-01-2020 00:50:05 [ INFO  ] HomeBank: (TC_AddCustomerTest_003.java:35)- going to add DOB as 13/01/2020
-15-01-2020 00:50:06 [ INFO  ] HomeBank: (TC_AddCustomerTest_003.java:39)- going to add address Kormangla
-15-01-2020 00:50:06 [ INFO  ] HomeBank: (TC_AddCustomerTest_003.java:43)- going to add city Bangalore
-15-01-2020 00:50:06 [ INFO  ] HomeBank: (TC_AddCustomerTest_003.java:47)- going to add state Karnataka
-15-01-2020 00:50:07 [ INFO  ] HomeBank: (TC_AddCustomerTest_003.java:51)- going to add pin 560096
-15-01-2020 00:50:08 [ INFO  ] HomeBank: (TC_AddCustomerTest_003.java:55)- going to add mobile 1234567890
-15-01-2020 00:50:08 [ INFO  ] HomeBank: (TC_AddCustomerTest_003.java:60)- going to add email Y02J3UVg@gmail.com
-15-01-2020 00:50:08 [ INFO  ] HomeBank: (TC_AddCustomerTest_003.java:64)- going to add password ranbir123
-15-01-2020 00:50:08 [ INFO  ] HomeBank: (TC_AddCustomerTest_003.java:67)- going to click submit
-15-01-2020 00:50:22 [ INFO  ] HomeBank: (TC_AddCustomerTest_003.java:71)- going to validate the customer created
+15-01-2020 17:16:34 [ INFO  ] HomeBank: (TC_LoginTest_001.java:17)- entered username
+15-01-2020 17:16:35 [ INFO  ] HomeBank: (TC_LoginTest_001.java:19)- entered password
+15-01-2020 17:16:36 [ INFO  ] HomeBank: (TC_LoginTest_001.java:21)- clicked Login button

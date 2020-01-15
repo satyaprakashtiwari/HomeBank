@@ -2,46 +2,51 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="30285" started-at="2020-01-15T00:49:53 IST" finished-at="2020-01-15T00:50:23 IST">
+  <suite name="Default suite" duration-ms="9626" started-at="2020-01-15T17:16:27 IST" finished-at="2020-01-15T17:16:37 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="30285" started-at="2020-01-15T00:49:53 IST" finished-at="2020-01-15T00:50:23 IST">
-      <class name="com.homebank.testCases.TC_AddCustomerTest_003">
-        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.homebank.testCases.TC_AddCustomerTest_003@33f88ab]" name="setExtent" is-config="true" duration-ms="222" started-at="2020-01-15T00:49:53 IST" finished-at="2020-01-15T00:49:53 IST">
+    <test name="Default test" duration-ms="9626" started-at="2020-01-15T17:16:27 IST" finished-at="2020-01-15T17:16:37 IST">
+      <class name="com.homebank.testCases.TC_LoginTest_001">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.homebank.testCases.TC_LoginTest_001@2833cc44]" name="setExtent" is-config="true" duration-ms="187" started-at="2020-01-15T17:16:27 IST" finished-at="2020-01-15T17:16:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtent -->
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.homebank.testCases.TC_AddCustomerTest_003@33f88ab]" name="setup" is-config="true" duration-ms="7208" started-at="2020-01-15T00:49:53 IST" finished-at="2020-01-15T00:50:00 IST">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.homebank.testCases.TC_LoginTest_001@2833cc44]" name="setup" is-config="true" duration-ms="6648" started-at="2020-01-15T17:16:27 IST" finished-at="2020-01-15T17:16:34 IST">
           <params>
             <param index="0">
               <value>
                 <![CDATA[chrome]]>
               </value>
             </param>
+            <param index="1">
+              <value>
+                <![CDATA[192.168.0.111]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="addNewCustomer()[pri:0, instance:com.homebank.testCases.TC_AddCustomerTest_003@33f88ab]" name="addNewCustomer" duration-ms="21881" started-at="2020-01-15T00:50:00 IST" finished-at="2020-01-15T00:50:22 IST">
+        <test-method status="PASS" signature="loginTest1()[pri:0, instance:com.homebank.testCases.TC_LoginTest_001@2833cc44]" name="loginTest1" duration-ms="2391" started-at="2020-01-15T17:16:34 IST" finished-at="2020-01-15T17:16:36 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addNewCustomer -->
-        <test-method status="PASS" signature="testdown(org.testng.ITestResult)[pri:0, instance:com.homebank.testCases.TC_AddCustomerTest_003@33f88ab]" name="testdown" is-config="true" duration-ms="909" started-at="2020-01-15T00:50:22 IST" finished-at="2020-01-15T00:50:23 IST">
+        </test-method> <!-- loginTest1 -->
+        <test-method status="PASS" signature="testdown(org.testng.ITestResult)[pri:0, instance:com.homebank.testCases.TC_LoginTest_001@2833cc44]" name="testdown" is-config="true" duration-ms="535" started-at="2020-01-15T17:16:36 IST" finished-at="2020-01-15T17:16:37 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=addNewCustomer status=SUCCESS method=TC_AddCustomerTest_003.addNewCustomer()[pri:0, instance:com.homebank.testCases.TC_AddCustomerTest_003@33f88ab] output={null}]]]>
+                <![CDATA[[TestResult name=loginTest1 status=SUCCESS method=TC_LoginTest_001.loginTest1()[pri:0, instance:com.homebank.testCases.TC_LoginTest_001@2833cc44] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testdown -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:com.homebank.testCases.TC_AddCustomerTest_003@33f88ab]" name="endReport" is-config="true" duration-ms="0" started-at="2020-01-15T00:50:24 IST" finished-at="2020-01-15T00:50:24 IST">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.homebank.testCases.TC_LoginTest_001@2833cc44]" name="endReport" is-config="true" duration-ms="0" started-at="2020-01-15T17:16:37 IST" finished-at="2020-01-15T17:16:37 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
-      </class> <!-- com.homebank.testCases.TC_AddCustomerTest_003 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.homebank.testCases.TC_LoginTest_001 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

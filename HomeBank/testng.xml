@@ -6,9 +6,10 @@
 	</listeners>
 	<test name="Test">
 		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="node" value="192.168.0.111"></parameter>
 		<classes>
 			
-			<class name="com.homebank.testCases.TC_AddCustomerTest_003" />
+			<!--<class name="com.homebank.testCases.TC_AddCustomerTest_003" />-->
 			<class name="com.homebank.testCases.TC_LoginTest_001" />
 			<!--<class name="com.homebank.testCases.TC_LoginDDT_002" />-->
 			
