@@ -9,8 +9,8 @@
 		<classes>
 			
 			<class name="com.homebank.testCases.TC_AddCustomerTest_003" />
-			<class name="com.homebank.testCases.TC_LoginTest_001" />
-			<class name="com.homebank.testCases.TC_LoginDDT_002" />
+			<!--<class name="com.homebank.testCases.TC_LoginTest_001" />
+			<class name="com.homebank.testCases.TC_LoginDDT_002" />-->
 			
 			
 		</classes>
