@@ -4,12 +4,13 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.homebank.pages.LoginPage;
+import com.homebank.utilities.ScreenRecorderUtil;
 
 public class TC_LoginTest_001 extends BaseClass {
 	
 	@Test
-	public void loginTest1() {
-		
+	public void loginTest1() throws Exception {
+		ScreenRecorderUtil.startRecord("loginTest1");
 		//test= extent.createTest("loginTest1");
 		
 		LoginPage lp=new LoginPage(driver);
@@ -22,6 +23,7 @@ public class TC_LoginTest_001 extends BaseClass {
 		
 		//Assert.assertEquals(driver.getTitle(), "Guru99 Bank Manager HomePage");
 		//Assert.assertEquals(driver.getTitle(), "OrangeHRM");
+		ScreenRecorderUtil.stopRecord();
 		
 	}
 	
