@@ -9,7 +9,7 @@
 		<parameter name="node" value="192.168.0.102"></parameter>
 		<classes>
 			
-			<class name="com.homebank.testCases.TC_AddCustomerTest_003" />
+			<!--<class name="com.homebank.testCases.TC_AddCustomerTest_003" />-->
 			<class name="com.homebank.testCases.TC_LoginTest_001" />
 			<!--<class name="com.homebank.testCases.TC_LoginDDT_002" />-->
 			
