@@ -132,8 +132,8 @@ public class BaseClass {
 			driver =new RemoteWebDriver(new URL(nodeURL), cap);
 			
 			//For NODE- run the command-> java -jar selenium-server-standalone-3.141.59.jar -role hub
-			//For HUB- run the command-> java -Dwebdriver.chrome.driver="C:\Users\satyatiw\Downloads\myJars\chromedriver.exe" -jar selenium-server-standalone-3.141.59.jar -role node -hub http://192.168.0.104:4444/grid/register/ -port 5555
-			//check URL for info : http://192.168.0.104:4444/grid/console
+			//For HUB- run the command-> java -Dwebdriver.chrome.driver="C:\Users\satyatiw\Downloads\myJars\chromedriver.exe" -jar selenium-server-standalone-3.141.59.jar -role node -hub http://192.168.0.102:4444/grid/register/ -port 5555
+			//check URL for info : http://192.168.0.102:4444/grid/console
 
 		} else if (br.equalsIgnoreCase("firefox")) {
 			System.setProperty("webdriver.gecko.driver", readConfig.getFirefoxPath());

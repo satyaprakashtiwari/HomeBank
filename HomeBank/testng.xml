@@ -6,7 +6,7 @@
 	</listeners>
 	<test name="Test">
 		<parameter name="browser" value="chrome"></parameter>
-		<parameter name="node" value="192.168.0.104"></parameter>
+		<parameter name="node" value="192.168.0.102"></parameter>
 		<classes>
 			
 			<!--<class name="com.homebank.testCases.TC_AddCustomerTest_003" />-->
