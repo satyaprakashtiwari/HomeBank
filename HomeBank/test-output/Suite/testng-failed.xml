@@ -5,7 +5,7 @@
     <listener class-name="com.homebank.utilities.Reporting"/>
   </listeners>
   <test thread-count="5" name="Test(failed)">
-    <parameter name="node" value="192.168.0.111"/>
+    <parameter name="node" value="10.237.112.81"/>
     <parameter name="browser" value="chrome"/>
     <classes>
       <class name="com.homebank.testCases.TC_LoginTest_001">
@@ -17,6 +17,15 @@
           <include name="loginTest1"/>
         </methods>
       </class> <!-- com.homebank.testCases.TC_LoginTest_001 -->
+      <class name="com.homebank.testCases.TC_LoginDDT_002">
+        <methods>
+          <include name="endReport"/>
+          <include name="testdown"/>
+          <include name="setExtent"/>
+          <include name="setup"/>
+          <include name="loginDDT"/>
+        </methods>
+      </class> <!-- com.homebank.testCases.TC_LoginDDT_002 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

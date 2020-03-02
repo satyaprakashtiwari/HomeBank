@@ -7,11 +7,10 @@ import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
-
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.RandomStringUtils;
-import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.TakesScreenshot;
@@ -69,7 +68,7 @@ public class BaseClass {
 
 	@BeforeSuite
 	public void setExtent() throws IOException {
-		Runtime.getRuntime().exec("taskkill /F /IM ChromeDriver.exe /T");
+		/*Runtime.getRuntime().exec("taskkill /F /IM ChromeDriver.exe /T");
 		File dir=new File("Logs");
 		File[] listFiles = dir.listFiles();
 		for(File file : listFiles){
@@ -89,7 +88,7 @@ public class BaseClass {
 		for(File file : listFiles){
 			System.out.println("Deleting "+file.getName());
 			file.delete();
-		}
+		}*/
 		
 		/*String timeStamp= new SimpleDateFormat("yyyy.MM.dd.hh.mm.ss").format(new Date());
 	
@@ -105,8 +104,8 @@ public class BaseClass {
 		extent.setSystemInfo("OS", "Windows-10");
 		extent.setSystemInfo("Browser", "Chrome");*/
 
-		logger = Logger.getLogger("HomeBank");
-		PropertyConfigurator.configure("log4j.properties");
+		logger = LogManager.getLogger("HomeBank");
+		//PropertyConfigurator.configure("log4j.properties");
 
 	}
 
@@ -129,11 +128,11 @@ public class BaseClass {
 			DesiredCapabilities cap= new DesiredCapabilities();
 			cap.setBrowserName("chrome");
 			cap.setPlatform(Platform.WIN10);
-			driver =new RemoteWebDriver(new URL(nodeURL), cap);
+			driver = new RemoteWebDriver(new URL(nodeURL), cap);
 			
 			//For NODE- run the command-> java -jar selenium-server-standalone-3.141.59.jar -role hub
-			//For HUB- run the command-> java -Dwebdriver.chrome.driver="C:\Users\satyatiw\Downloads\myJars\chromedriver.exe" -jar selenium-server-standalone-3.141.59.jar -role node -hub http://192.168.0.102:4444/grid/register/ -port 5555
-			//check URL for info : http://192.168.0.102:4444/grid/console
+			//For HUB- run the command-> java -Dwebdriver.chrome.driver="C:\Users\satyatiw\Downloads\myJars\chromedriver.exe" -jar selenium-server-standalone-3.141.59.jar -role node -hub http://192.168.0.110:4444/grid/register/ -port 5555
+			//check URL for info : http://192.168.0.110:4444/grid/console
 
 		} else if (br.equalsIgnoreCase("firefox")) {
 			System.setProperty("webdriver.gecko.driver", readConfig.getFirefoxPath());
